@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #FDFCFB;
+    color: #1A1A1A;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+}
+
+.font-editorial {
+  font-family: 'Arial Narrow', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.font-serif-italic {
+  font-family: 'Georgia', Cambria, serif;
+  font-style: italic;
+}
+
+.font-mono-code {
+  font-family: 'Chivo Mono', monospace, monospace;
+}
+
+/* Custom scrollbars for high-contrast architectural UI */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F0EFED;
+  border-left: 1px solid #1A1A1A;
+}
+::-webkit-scrollbar-thumb {
+  background: #1A1A1A;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #FF5F00;
+}
+
+/* Hard drop shadow style */
+.retro-shadow {
+  box-shadow: 8px 8px 0px #1A1A1A;
+}
+
+.retro-shadow-sm {
+  box-shadow: 4px 4px 0px #1A1A1A;
+}
+
+.retro-shadow-lg {
+  box-shadow: 12px 12px 0px rgba(0, 0, 0, 0.08);
+}

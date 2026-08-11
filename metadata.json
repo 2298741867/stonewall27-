@@ -1,0 +1,6 @@
+{
+  "name": "Clutterless",
+  "description": "AI-powered room photo organization, spatial geometry analysis, and decluttering recommendations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
